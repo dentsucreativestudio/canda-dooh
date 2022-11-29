@@ -16,5 +16,5 @@ https://github.com/dentsucreativestudio/canda-dooh/blob/main/data/settings.js
 
 ### Edit dates:
 use settings.js file to enter dates. 
-date: monthday *// example: 1128* 
-time: hourminute *//example 1230*
+date: monthday *// example: 1128* <br>
+time: hourminute *//example 1230* <br>
