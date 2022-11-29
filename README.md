@@ -15,6 +15,6 @@ To edit data of dates and images edit the the javascript file, by adding and edi
 https://github.com/dentsucreativestudio/canda-dooh/blob/main/data/settings.js
 
 ### Edit dates:
-use settings.js file to enter dates. 
+use settings.js file to enter dates. <br>
 date: monthday *// example: 1128* <br>
 time: hourminute *//example 1230* <br>
