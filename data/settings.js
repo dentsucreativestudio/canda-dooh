@@ -25,7 +25,7 @@ var settings = [
   { date: 1128, time: 1850, image: 'https://serving.adcombi.com//production/karwei-dentsu-nl-adform/20220801_karwei_afbeeldingen/landscape_1.jpg'},
   { date: 1129, time: 1330, image: 'https://media-studio-webapp.azurewebsites.net/staticpages/clients/canda/images/img3.jpg'},
   { date: 1129, time: 1400, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img1.jpg'},
-  { date: 1129, time: 1430, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img2.jpg'},
+  { date: 1129, time: 1530, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/Khalik-OLdGreenEyes.jpg'},
   { date: 1129, time: 1600, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img1.jpg'},
   { date: 1129, time: 1630, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img1.jpg'},
   { date: 1129, time: 1640, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img2.jpg'},
