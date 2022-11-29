@@ -2,12 +2,15 @@
 
 Add images to images folder
 
-Image path base:
+Image directoy path base:
 https://dentsucreativestudio.github.io/canda-dooh/images/
 
-example of final image:
+Example of final image:
 https://dentsucreativestudio.github.io/canda-dooh/images/Khalik-OLdGreenEyes.jpg
 
+Data.
+To edit data of dates and images edit the the javascript file, by adding and editing the file in the webeditor
+https://github.com/dentsucreativestudio/canda-dooh/blob/main/data/settings.js
 
 Edit dates:
 use settings.js file to enter dates. 
