@@ -30,5 +30,5 @@ var settings = [
   { date: 1129, time: 1630, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img1.jpg'},
   { date: 1129, time: 1640, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img2.jpg'},
   { date: 1129, time: 1650, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/img2.jpg'},
-  { date: -1,   time: 2400, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/default.png'} //default
+  { date: -1,   time: 2400, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/default.png'} //default Don't edit this line.
 ];
