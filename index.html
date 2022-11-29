@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.size" content="width=1080,height=1920">
+      <style>
+      *,*:before,*:after {        box-sizing: inherit;        margin: 0;        padding: 0;     -webkit-font-smoothing: antialiased;        -moz-osx-font-smoothing: grayscale;   }
+      /*CSS RESET*/
+      html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+      #banner { 
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #B20A2F;        
+        box-sizing: border-box;        
+        cursor: pointer;        
+        width:  1080px;        
+        height: 1920px;                
+        overflow: hidden;       
+        position: relative;
+        visibility: hidden;
+        display:flex;
+        align-items:center;
+        align-content: space-around;
+        background-color: white;
+        text-align:center; 
+       }
+      .blockElement{    position:absolute;    top:0;    left:0;    width:100%;    height:100%;  }
+      .abs{    position:absolute;    top:0;    left:0;  }
+      #visual{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        object-fit:cover;
+      }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; }}
+      .fade-in {
+          opacity:0;
+          animation:fadeIn;
+          animation-fill-mode:forwards;
+          animation-duration:0.7s;  
+          animation-timing-function:cubic-bezier(1,0,.18,.99);
+      }
+
+      #infoPanel{
+        z-index: 1;
+        padding:2%;
+        width:100%;
+        background-color: rgb(26, 30, 33);
+        letter-spacing: 10px;
+        visibility: hidden;
+      }
+      #currentTime{
+        color:aliceblue;
+        margin:0;
+        padding:0;
+        font-size: 100%;
+        
+      }
+
+      </style>
+
+
+</head>
+<body>
+  
+<div id="banner" >
+  <div id="infoPanel" class="abs">
+    <p id="currentTime" ></p>
+  </div>
+  
+</div>
+
+
+<script src="https://media-studio-webapp.azurewebsites.net/staticpages/clients/canda/data/settings.js"></script>
+
+
+
+  <script>
+
+     var banner = document.querySelector("#banner");
+     var infoPanel = document.querySelector("#infoPanel");
+
+     function onDocumentReadyHandler(){
+
+        var now = new Date();
+        var date = (now.getMonth() + 1) * 100 + now.getDate();
+        var time = now.getHours() * 100 + now.getMinutes();
+
+        var setting;
+        for (var i = 0; i < settings.length; i++) {
+          var s = settings[i];
+
+          if ((s.date == -1 || s.date == date) && time < s.time) {
+            setting = settings[i];
+            // alert(setting.time)
+            // console.log(setting);
+            document.getElementById('currentTime').innerHTML =  'Current image shows until: ' + setting.time ;
+            break;
+          }
+        }
+      
+
+
+        let img = new Image();
+        img.id = "visual";
+        img.onload = function() {
+            // the image is ready
+          //add class to main wrapper to fade in
+          banner.className = 'fade-in';
+          banner.appendChild(img);
+            
+        };
+        img.onerror = function() {
+            // the image has failed
+            console.log('Image not loaded.')
+        };
+        img.src = setting.image;   
+        //end loading image
+
+
+        var bw = banner.offsetWidth; 
+        var bh = banner.offsetHeight; 
+
+        //set banner visibility
+        banner.style.visibility  = "visible";
+
+        function toggleInfoPanel(flag){
+          if(flag){
+            infoPanel.style.visibility  = "visible";
+          }else{
+            infoPanel.style.visibility  = "hidden";
+          }
+
+        }
+
+
+        function checkKey(e) {
+
+            e = e || window.event;
+            // console.log('checkKey: ',  e.keyCode)
+
+            if (e.keyCode == '38') {
+                // up arrow
+                toggleInfoPanel(false)
+            }
+            else if (e.keyCode == '40') {
+                // down arrow
+                toggleInfoPanel(true)
+            }
+            else if (e.keyCode == '37') {
+              // left arrow
+            }
+            else if (e.keyCode == '39') {
+              // right arrow
+            }
+            else if (e.keyCode == '27') {
+              // escape button
+              toggleInfoPanel(false)
+            }
+            
+
+          }
+
+        document.onkeydown = checkKey;
+
+      
+
+    }
+
+  document.addEventListener("DOMContentLoaded", onDocumentReadyHandler);
+
+
+</script>
+
+
+
+
+</body>
+</html>
