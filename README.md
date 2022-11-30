@@ -32,5 +32,5 @@ This files determine the date, time and image urls. The time of each entry indic
 
 date: monthday *// example -> 1128* (November 28th)<br>
 time: hourminute *//example -> 1230* (12h30m)<br>
-image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg* <br>
+image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/vertical/Brand_Xmas_Shooting_1080x1920px_Anna.jpg* <br>
 
