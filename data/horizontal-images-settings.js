@@ -1,5 +1,5 @@
 var settings = [
-  { date: 1130, time: 1130, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-01.jpg'},
+  { date: 1130, time: 1110, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-01.jpg'},
   { date: 1130, time: 1120, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg'},
   { date: 1130, time: 1130, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-03.jpg'},
   { date: 1130, time: 1140, image: 'https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-04.jpg'},
