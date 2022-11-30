@@ -12,7 +12,7 @@
       html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
       #banner { 
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #B20A2F;        
+        background-color: white;        
         box-sizing: border-box;        
         cursor: pointer;        
         width:  1080px;        
@@ -23,8 +23,8 @@
         display:flex;
         align-items:center;
         align-content: space-around;
-        background-color: white;
         text-align:center; 
+
        }
       .blockElement{    position:absolute;    top:0;    left:0;    width:100%;    height:100%;  }
       .abs{    position:absolute;    top:0;    left:0;  }
@@ -74,8 +74,8 @@
   
 </div>
 
-
-<script src="https://media-studio-webapp.azurewebsites.net/staticpages/clients/canda/data/settings.js"></script>
+<!-- <script src="https://media-studio-webapp.azurewebsites.net/staticpages/clients/canda/data/vertical-images-settings.js"></script> -->
+<script src="https://dentsucreativestudio.github.io/canda-dooh/data/vertical-images-settings.js"></script>
 
 
 
@@ -98,7 +98,7 @@
             setting = settings[i];
             // alert(setting.time)
             // console.log(setting);
-            document.getElementById('currentTime').innerHTML =  'Current image shows until: ' + setting.time ;
+            document.getElementById('currentTime').innerHTML =  'Current look shows until: ' + setting.time ;
             break;
           }
         }
@@ -153,21 +153,21 @@
             }
             else if (e.keyCode == '37') {
               // left arrow
+              toggleInfoPanel(true)
             }
             else if (e.keyCode == '39') {
               // right arrow
+              toggleInfoPanel(true)
             }
             else if (e.keyCode == '27') {
               // escape button
               toggleInfoPanel(false)
             }
-            
-
+           
           }
 
         document.onkeydown = checkKey;
 
-      
 
     }
 
