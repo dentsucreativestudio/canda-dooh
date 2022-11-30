@@ -5,7 +5,7 @@
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="ad.size" content="width=1080,height=1920">
+    <meta name="ad.size" content="width=1344,height=756">
       <style>
       *,*:before,*:after {        box-sizing: inherit;        margin: 0;        padding: 0;     -webkit-font-smoothing: antialiased;        -moz-osx-font-smoothing: grayscale;   }
       /*CSS RESET*/
@@ -15,16 +15,15 @@
         background-color: white;        
         box-sizing: border-box;        
         cursor: pointer;        
-        width:  1080px;        
-        height: 1920px;                
+        width:  1344px;        
+        height: 756px;                
         overflow: hidden;       
         position: relative;
         visibility: hidden;
         display:flex;
         align-items:center;
         align-content: space-around;
-        text-align:center; 
-
+        text-align:center;
        }
       .blockElement{    position:absolute;    top:0;    left:0;    width:100%;    height:100%;  }
       .abs{    position:absolute;    top:0;    left:0;  }
@@ -74,7 +73,9 @@
   
 </div>
 
-<script src="https://dentsucreativestudio.github.io/canda-dooh/data/vertical-images-settings.js"></script>
+
+<!-- <script src="https://media-studio-webapp.azurewebsites.net/staticpages/clients/canda/data/horizontal-images-settings.js"></script> -->
+<script src="https://dentsucreativestudio.github.io/canda-dooh/data/horizontal-images-settings.js"></script>
 
 
 
@@ -92,11 +93,10 @@
         var setting;
         for (var i = 0; i < settings.length; i++) {
           var s = settings[i];
-
           if ((s.date == -1 || s.date == date) && time < s.time) {
             setting = settings[i];
             // alert(setting.time)
-            // console.log(setting);
+            // console.log(s.date, ' - ' ,date , '  - time: ',time , ' s-time - ', s.time);
             document.getElementById('currentTime').innerHTML =  'Current look shows until: ' + setting.time ;
             break;
           }
@@ -162,11 +162,13 @@
               // escape button
               toggleInfoPanel(false)
             }
-           
+            
+
           }
 
         document.onkeydown = checkKey;
 
+      
 
     }
 
