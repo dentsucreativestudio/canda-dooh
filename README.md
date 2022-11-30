@@ -2,13 +2,22 @@
 
 # Add images to images folder
 
-Image directoy path base:
-https://dentsucreativestudio.github.io/canda-dooh/images/
+### Horizontal Images 
 
-Example of final image:
-https://dentsucreativestudio.github.io/canda-dooh/images/Khalik-OLdGreenEyes.jpg
+Image directoy path base horizontal:
+https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
 
-### Edit Images
+Example of final horizontal image:
+https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg
+
+### Vertical Images 
+
+### Image directoy path base vertical:
+https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
+
+Example of final vertical image:
+https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg
+
 
 # Data Entry
 To edit data of dates and images edit the the javascript file, by adding and editing the file in the webeditor
