@@ -12,7 +12,7 @@ https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizo
 
 ### Vertical Images 
 
-### Image directoy path base vertical:
+Image directoy path base vertical:
 https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
 
 Example of final vertical image:
