@@ -25,7 +25,7 @@ https://dentsucreativestudio.github.io/canda-dooh/images/vertical/canda-vertical
 
 
 # Data Entry
-The settings.js files control date, time and image urls. The time of each entry indicates until when the current image is displayed.<br>
+Navigate to [data folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data) to edit the [horizontal settings](https://github.com/dentsucreativestudio/canda-dooh/blob/main/data/horizontal-images-settings.js) or [vertical settings](https://github.com/dentsucreativestudio/canda-dooh/blob/main/data/vertical-images-settings.js). This files determine the date, time and image urls. The time of each entry indicates the time until the current image will be displayed.<br>
 
 ### Horizontal Images Settings File
 https://dentsucreativestudio.github.io/canda-dooh/data/horizontal-images-settings.js
