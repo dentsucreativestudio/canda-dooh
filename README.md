@@ -5,9 +5,9 @@ To edit images go to this
 
 ### Horizontal Images 
 
-- Navigate to the folder images folder and access the folder the image should be uploaded. <br />
-* Click add file dropdown button, then upload files, drag and drop or select the image from your computer, multiple images are allowed. <br />
-* Click on bottom green button 'Commit changes'(You can skip the comments on this step). <br /> 
+- Navigate to the folder images folder and access the folder the image should be uploaded.
+* Click add file dropdown button, then upload files, drag and drop or select the image from your computer, multiple images are allowed.
+* Click on bottom green button 'Commit changes'(You can skip the comments on this step).
 
 Image directoy path horizontal:
 https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
