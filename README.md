@@ -30,7 +30,7 @@ This files determine the date, time and image urls. The time of each entry indic
 * At the bottom left of the page click on the green **Commit changes** button and wait until the changes are done. (You can skip the comments on this step).
 * The data should be available within +-one minute to propagate in the server.
 
-date: monthday *// example -> 1128* <br>
-time: hourminute *//example -> 1230* <br>
+date: monthday *// example -> 1128* (November 28th)<br>
+time: hourminute *//example -> 1230* (12h30m)<br>
 image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg* <br>
 
