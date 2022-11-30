@@ -12,16 +12,10 @@
 Image directoy path horizontal:
 https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
 
-Example of final horizontal image:
-https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg
-
 ### Vertical Images 
 
 Image directoy path vertical:
 https://dentsucreativestudio.github.io/canda-dooh/images/vertical
-
-Example of final vertical image:
-https://dentsucreativestudio.github.io/canda-dooh/images/vertical/canda-vertical-01.jpg
 
 
 # Data Entry
