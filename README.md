@@ -4,7 +4,8 @@
 
 * Navigate to the [images folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images) and click on the folder that image should be uploaded.
 * Click on the **add file** dropdown button on top left. Select **upload files**. Either drag and drop or select the image from your computer, multiple images are allowed.
-* Click on bottom green button 'Commit changes'(You can skip the comments on this step).
+* At the bottom left of the page click on the green **Commit changes** button and wait until the changes are done. (You can skip the comments on this step).
+* The images should be available within one minute to propate in the server.
 
 ### Horizontal Images 
 
