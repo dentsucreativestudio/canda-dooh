@@ -1,13 +1,12 @@
 # C&A HTML Display for Digital Out of Home
 
 # Add images to images folder
-To edit images go to this 
-
-### Horizontal Images 
 
 * Navigate to the [images folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images) and click on the folder that image should be uploaded.
 * Click add file dropdown button, then upload files, drag and drop or select the image from your computer, multiple images are allowed.
 * Click on bottom green button 'Commit changes'(You can skip the comments on this step).
+
+### Horizontal Images 
 
 Image directoy path horizontal:
 https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
