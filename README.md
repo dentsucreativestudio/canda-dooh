@@ -1,4 +1,4 @@
-# canda-dooh
+# C&A Horizontal and Vertical HTML for Digital Out of Home
 
 # Add images to images folder
 
