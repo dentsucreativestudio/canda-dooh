@@ -32,5 +32,5 @@ https://dentsucreativestudio.github.io/canda-dooh/data/vertical-images-settings.
 You can edit the above files to adjust the dates, times and image url. At the moment the window  <br>
 date: monthday *// example: 1128* <br>
 time: hourminute *//example 1230* <br>
-image: 'path/to/url' *//example https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg* <br>
+image: 'path/to/url' *// example https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg* <br>
 
