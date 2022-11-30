@@ -20,7 +20,7 @@ https://dentsucreativestudio.github.io/canda-dooh/images/vertical/canda-vertical
 
 
 # Data Entry
-To edit data of dates and images edit the the javascript file, by adding and editing the file in the webeditor
+Settings files controls date, time and image urls. The time of each entry indicates until when the current image is displayed.<br>
 
 ### Horizontal Images Settings File
 https://dentsucreativestudio.github.io/canda-dooh/data/horizontal-images-settings.js
@@ -29,7 +29,7 @@ https://dentsucreativestudio.github.io/canda-dooh/data/horizontal-images-setting
 https://dentsucreativestudio.github.io/canda-dooh/data/vertical-images-settings.js
 
 ### Edit dates:
-Edit the files above to adjust dates, times and images url. The time indicates until when the current image is displayed.<br>
+
 date: monthday *// example -> 1128* <br>
 time: hourminute *//example -> 1230* <br>
 image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/horizontal/canda-horizontal-02.jpg* <br>
