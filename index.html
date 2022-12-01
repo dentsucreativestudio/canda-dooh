@@ -5,7 +5,7 @@
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="ad.size" content="width=1344,height=756">
+    <meta name="ad.size" content="width=1080,height=1920">
       <style>
       *,*:before,*:after {        box-sizing: inherit;        margin: 0;        padding: 0;     -webkit-font-smoothing: antialiased;        -moz-osx-font-smoothing: grayscale;   }
       /*CSS RESET*/
@@ -16,14 +16,15 @@
         box-sizing: border-box;        
         cursor: pointer;        
         width:  1344px;        
-        height: 756px;                
+        height: 756px;                 
         overflow: hidden;       
         position: relative;
         visibility: hidden;
         display:flex;
         align-items:center;
         align-content: space-around;
-        text-align:center;
+        text-align:center; 
+
        }
       .blockElement{    position:absolute;    top:0;    left:0;    width:100%;    height:100%;  }
       .abs{    position:absolute;    top:0;    left:0;  }
@@ -73,10 +74,7 @@
   
 </div>
 
-
-<!-- <script src="https://media-studio-webapp.azurewebsites.net/staticpages/clients/canda/data/horizontal-images-settings.js"></script> -->
-<script src="https://dentsucreativestudio.github.io/canda-dooh/data/horizontal-images-settings.js"></script>
-
+<script src="https://dentsucreativestudio.github.io/canda-dooh/data/02-antwerpen/horizontal-images-settings.js"></script>
 
 
   <script>
@@ -86,29 +84,20 @@
 
      function onDocumentReadyHandler(){
 
-        var now = new Date();
-        var date = (now.getMonth() + 1) * 100 + now.getDate();
-        var time = now.getHours() * 100 + now.getMinutes();
+        var arrayRotation =[];
 
-        var setting;
-        for (var i = 0; i < settings.length; i++) {
-          var s = settings[i];
-          if ((s.date == -1 || s.date == date) && time < s.time) {
-            setting = settings[i];
-            // alert(setting.time)
-            // console.log(s.date, ' - ' ,date , '  - time: ',time , ' s-time - ', s.time);
-            document.getElementById('currentTime').innerHTML =  'Current look shows until: ' + setting.time ;
-            break;
-          }
-        }
-      
-
+        //length for the 3 first images in the array
+        for (var i = 0; i < 3; i++) {
+          arrayRotation.push(settings[i]);
+        }        
+        //randomize the array
+        var randomItem = arrayRotation[Math.floor(Math.random()*arrayRotation.length)];
+        console.log(randomItem , ' ' , arrayRotation.length)
+        
 
         let img = new Image();
         img.id = "visual";
         img.onload = function() {
-            // the image is ready
-          //add class to main wrapper to fade in
           banner.className = 'fade-in';
           banner.appendChild(img);
             
@@ -117,9 +106,8 @@
             // the image has failed
             console.log('Image not loaded.')
         };
-        img.src = setting.image;   
+        img.src = randomItem.image;   
         //end loading image
-
 
         var bw = banner.offsetWidth; 
         var bh = banner.offsetHeight; 
