@@ -7,16 +7,11 @@
 * At the bottom left of the page click on the green **Commit changes** button and wait until the changes are done. (You can skip the comments on this step).
 * The images should be available within +-one minute to propagate in the server.
 
-### Horizontal Images 
-
-Image directoy path horizontal:
-https://dentsucreativestudio.github.io/canda-dooh/images/horizontal
-
-### Vertical Images 
-
-Image directoy path vertical:
-https://dentsucreativestudio.github.io/canda-dooh/images/vertical
-
+### Images folders
+* [Wijnegem (03/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/01-wijnegem)
+* [Antwerpen (04/12) => 13:00 to 17:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/02-antwerpen)
+* [Belle Ile (10/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/03-belle-ile)
+* [Waasland (17/12) => 11:00 to 20:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/04-waasland)
 
 # Data Entry
 
