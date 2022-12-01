@@ -2,8 +2,7 @@
 
 # Add images to images folder
 
-Keep the naming convention in such way images don't overide each other so the total of images can be presented on the day after in random order.<br />
-*Images should be less than 1Mb preferably. Optimize images before uploading, example like [tinypng](https://tinypng.com/) is great to compress images and maintain quality.*
+Keep the naming convention in such way images don't overide each other so the total of images can be presented on the day after in random order. *Images should be less than 1Mb preferably. Optimize images before uploading, example like [tinypng](https://tinypng.com/) is great to compress images and maintain quality.*
 
 * Navigate to the [images folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images) and click on the folder that image should be uploaded.
 * Click on the **add file** dropdown button on top left. Select **upload files**. Either drag and drop or select the image from your computer, multiple images are allowed.
