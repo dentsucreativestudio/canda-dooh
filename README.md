@@ -8,14 +8,17 @@
 * The images should be available within +-one minute to propagate in the server.
 
 ### Images folders
-* [Wijnegem (03/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/01-wijnegem)
-* [Antwerpen (04/12) => 13:00 to 17:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/02-antwerpen)
-* [Belle Ile (10/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/03-belle-ile)
-* [Waasland (17/12) => 11:00 to 20:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/04-waasland)
+* Images [Wijnegem (03/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/01-wijnegem)
+* Images [Antwerpen (04/12) => 13:00 to 17:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/02-antwerpen)
+* Images [Belle Ile (10/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/03-belle-ile)
+* images [Waasland (17/12) => 11:00 to 20:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/04-waasland)
 
 # Data Entry
 
-This files determine the date, time and image urls. The time of each entry indicates the time until the current image will be displayed.<br>
+* Data [Wijnegem](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/01-wijnegem)
+* Data [Antwerpen](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/02-antwerpen)
+* Data [Belle Ile](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/03-belle-ile)
+* Data [Waasland](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/04-waasland)
 
 
 ### Edit dates:
