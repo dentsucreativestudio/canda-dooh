@@ -23,14 +23,13 @@ Keep the naming convention in such way images don't overide each other so the to
 * Data [Waasland](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/04-waasland)
 
 
-### Edit dates:
+### Edit Images:
 
 * Navigate to [data folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data) to edit and add new images to the list. 
 * Click the **pencil icon** on top right corner to enter into edit mode. Make your chenges.
 * At the bottom left of the page click on the green **Commit changes** button and wait until the changes are done. (You can skip the comments on this step).
 * The data should be available within +-one minute to propagate in the server.
 
-date: monthday *// example -> 1128* (November 28th)<br>
-time: hourminute *//example -> 1230* (12h30m)<br>
-image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/vertical/Brand_Xmas_Shooting_1080x1920px_Anna.jpg* <br>
+
+image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1080x1920px_Anna.jpg* <br>
 
