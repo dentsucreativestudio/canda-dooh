@@ -100,10 +100,13 @@
         img.onload = function() {
           banner.className = 'fade-in';
           banner.appendChild(img);
-            
+          console.log('Image loaded.')
         };
         img.onerror = function() {
-            // the image has failed
+            // the image has failed, load a local default image
+            var defaults = ['Brand_Xmas_Shooting_1920x1080px_Anna.jpg','Brand_Xmas_Shooting_1920x1080px_Eveline.jpg','Brand_Xmas_Shooting_1920x1080px_Nancy.jpg']
+            var randomDefault = defaults[Math.floor(Math.random()*defaults.length)];
+            img.src = randomDefault;   
             console.log('Image not loaded.')
         };
         img.src = randomItem.image;   
