@@ -2,7 +2,8 @@
 
 # Add images to images folder
 
-Keep the naming convention in such way images don't overide each other so the total of images can be presented on the day after in random order. *Images should be less than 1Mb preferably. Optimize images before uploading, example like [tinypng](https://tinypng.com/) is great to compress images and maintain quality.*
+Keep the naming convention in such way images don't overide each other, so the total of images can be presented on the day after in random order. 
+ >Images should be less than 1Mb preferably. Optimize images before uploading, example like [tinypng](https://tinypng.com/) is great to compress images and maintain quality.
 
 * Navigate to the [images folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images) and click on the folder that image should be uploaded.
 * Click on the **add file** dropdown button on top left. Select **upload files**. Either drag and drop or select the image from your computer, multiple images are allowed.
@@ -24,6 +25,21 @@ Keep the naming convention in such way images don't overide each other so the to
 
 
 ### Edit Images:
+
+The images on rotation for the photo shoot day are the top 3 in the list. When adding new images add them above the existing images.
+Some basic Git commands are:
+
+var settings = [
+  ```
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_xxx.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_yyy.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_zzz.jpg'},
+  ```
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Anna.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Eveline.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Nancy.jpg'},
+];
+ 
 
 * Navigate to [data folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data) to edit and add new images to the list. 
 * Click the **pencil icon** on top right corner to enter into edit mode. Make your chenges.
