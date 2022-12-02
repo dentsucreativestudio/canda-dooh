@@ -30,13 +30,15 @@ The images on rotation for the photo shoot day are the top 3 in the list. When a
 
 ```
 var settings = [
+  //New images added above
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_xxx.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_yyy.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_zzz.jpg'},
-  
+  //all other images below
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Anna.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Eveline.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Nancy.jpg'},
+  ...
 ];
  ```
 
