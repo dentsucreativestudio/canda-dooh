@@ -48,7 +48,9 @@ var settings = [
 
 
 
-# HTML PREVIEWS LINKS
+# HTML preview links
+
+These are preview links to visualize in the browser what will be reflected in the DOOH screens.
 
 ###  Wijnegem:
 * Live pictures on 3/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v1_photo_session_HTML_1080x1920/index.html)
