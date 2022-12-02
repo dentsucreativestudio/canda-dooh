@@ -10,75 +10,21 @@
       *,*:before,*:after {        box-sizing: inherit;        margin: 0;        padding: 0;     -webkit-font-smoothing: antialiased;        -moz-osx-font-smoothing: grayscale;   }
       /*CSS RESET*/
       html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-      #banner { 
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: white;        
-        box-sizing: border-box;        
-        cursor: pointer;        
+      #banner {  font-family: Arial, Helvetica, sans-serif; background-color: white;         box-sizing: border-box;         cursor: pointer;     overflow: hidden;        position: relative; visibility: hidden; display:flex; align-items:center; align-content: space-around; text-align:center;     
         width:  1080px;        
         height: 1920px;                
-        overflow: hidden;       
-        position: relative;
-        visibility: hidden;
-        display:flex;
-        align-items:center;
-        align-content: space-around;
-        text-align:center; 
-
        }
       .blockElement{    position:absolute;    top:0;    left:0;    width:100%;    height:100%;  }
       .abs{    position:absolute;    top:0;    left:0;  }
-      #visual{
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        object-fit:cover;
-      }
+      #visual{ position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; }
       @keyframes fadeIn { from { opacity:0; } to { opacity:1; }}
-      .fade-in {
-          opacity:0;
-          animation:fadeIn;
-          animation-fill-mode:forwards;
-          animation-duration:0.7s;  
-          animation-timing-function:cubic-bezier(1,0,.18,.99);
-      }
-
-      #infoPanel{
-        z-index: 1;
-        padding:2%;
-        width:100%;
-        background-color: rgb(26, 30, 33);
-        letter-spacing: 10px;
-        visibility: hidden;
-      }
-      #currentTime{
-        color:aliceblue;
-        margin:0;
-        padding:0;
-        font-size: 100%;
-        
-      }
-
+      .fade-in { opacity:0; animation:fadeIn; animation-fill-mode:forwards; animation-duration:0.7s;   animation-timing-function:cubic-bezier(1,0,.18,.99);}
       </style>
-
-
 </head>
 <body>
-  
-<div id="banner" >
-  <div id="infoPanel" class="abs">
-    <p id="currentTime" ></p>
-  </div>
-  
-</div>
-
-<script src="https://dentsucreativestudio.github.io/canda-dooh/data/01-wijnegem/vertical-images-settings.js"></script>
-<!-- <script src="../../../data/01-wijnegem/vertical-images-settings.js"></script> -->
-
+  <div id="banner"></div>
+  <script src="https://dentsucreativestudio.github.io/canda-dooh/data/01-wijnegem/vertical-images-settings.js"></script>
   <script>
-
      var banner = document.querySelector("#banner");
      var infoPanel = document.querySelector("#infoPanel");
 
@@ -92,10 +38,9 @@
         }        
         //randomize the array
         var randomItem = arrayRotation[Math.floor(Math.random()*arrayRotation.length)];
-        console.log(randomItem , ' ' , arrayRotation.length)
-        
-
-        let img = new Image();
+        // console.log(randomItem , ' ' , arrayRotation.length)
+      
+        var img = new Image();
         img.id = "visual";
         img.onload = function() {
           banner.className = 'fade-in';
@@ -115,58 +60,9 @@
         //set banner visibility
         banner.style.visibility  = "visible";
 
-        function toggleInfoPanel(flag){
-          if(flag){
-            infoPanel.style.visibility  = "visible";
-          }else{
-            infoPanel.style.visibility  = "hidden";
-          }
-
-        }
-
-
-        function checkKey(e) {
-
-            e = e || window.event;
-            // console.log('checkKey: ',  e.keyCode)
-
-            if (e.keyCode == '38') {
-                // up arrow
-                toggleInfoPanel(false)
-            }
-            else if (e.keyCode == '40') {
-                // down arrow
-                toggleInfoPanel(true)
-            }
-            else if (e.keyCode == '37') {
-              // left arrow
-              toggleInfoPanel(true)
-            }
-            else if (e.keyCode == '39') {
-              // right arrow
-              toggleInfoPanel(true)
-            }
-            else if (e.keyCode == '27') {
-              // escape button
-              toggleInfoPanel(false)
-            }
-            
-
-          }
-
-        document.onkeydown = checkKey;
-
-      
-
     }
-
   document.addEventListener("DOMContentLoaded", onDocumentReadyHandler);
-
-
 </script>
-
-
-
-
 </body>
+ 
 </html>
