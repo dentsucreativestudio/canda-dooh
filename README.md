@@ -27,19 +27,18 @@ Keep the naming convention in such way images don't overide each other, so the t
 ### Edit Images:
 
 The images on rotation for the photo shoot day are the top 3 in the list. When adding new images add them above the existing images.
-Some basic Git commands are:
 
+```
 var settings = [
-  ```
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_xxx.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_yyy.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/new_image_zzz.jpg'},
-  ```
+  
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Anna.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Eveline.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Nancy.jpg'},
 ];
- 
+ ```
 
 * Navigate to [data folder](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data) to edit and add new images to the list. 
 * Click the **pencil icon** on top right corner to enter into edit mode. Make your chenges.
