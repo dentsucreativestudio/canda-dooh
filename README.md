@@ -27,6 +27,7 @@ Keep the naming convention in such way images don't overide each other, so the t
 ### Edit Images:
 
 The images on rotation for the photo shoot day are the top 3 in the list. When adding new images add them above the existing images.
+Image path example: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1080x1920px_Anna.jpg* <br>
 
 ```
 var settings = [
@@ -46,5 +47,21 @@ var settings = [
 * The data should be available within +-one minute to propagate in the server.
 
 
-image: 'path/to/url' *// example -> https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1080x1920px_Anna.jpg* <br>
 
+# HTML PREVIEWS LINKS
+
+###  Wijnegem:
+* Live pictures on 3/12 [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v1_photo_session_HTML_1080x1920/index.html)
+* Pictures of previous days in random order on 4/12 [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v2_day_after_HTML_1080x1920/index.html)
+
+### Antwerp
+* Live pictures on 4/12
+* Pictures of previous day in random order on 5/12
+
+### Belle Ile:
+* Live pictures on 10/12
+* Pictures of previous days in random order on 11/12
+
+### For Waasland:
+* Live pictures on 17/12
+* Pictures of previous days in random order on 18/12
