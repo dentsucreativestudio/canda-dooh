@@ -62,6 +62,6 @@ var settings = [
 * Live pictures on 10/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_03_belle_ile_v1_photo_session_HTML_1080x1920/index.html)
 * Pictures of previous days in random order on 11/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_03_belle_ile_v2_day_after_HTML_1080x1920/index.html)
 
-### For Waasland:
+### Waasland:
 * Live pictures on 17/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_04_waasland_v1_photo_session_HTML_1080x1920/index.html)
 * Pictures of previous days in random order on 18/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_04_waasland_v2_day_after_HTML_1080x1920/index.html)
