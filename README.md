@@ -51,17 +51,17 @@ var settings = [
 # HTML PREVIEWS LINKS
 
 ###  Wijnegem:
-* Live pictures on 3/12 [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v1_photo_session_HTML_1080x1920/index.html)
-* Pictures of previous days in random order on 4/12 [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v2_day_after_HTML_1080x1920/index.html)
+* Live pictures on 3/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v1_photo_session_HTML_1080x1920/index.html)
+* Pictures of previous days in random order on 4/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_01_wijnegem_v2_day_after_HTML_1080x1920/index.html)
 
 ### Antwerp
-* Live pictures on 4/12
-* Pictures of previous day in random order on 5/12
+* Live pictures on 4/12: [Preview 1080x1920](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_02_antwerpen_v1_photo_session_HTML_1080x1920/index.html) [Preview 1344x756](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_02_antwerpen_v1_photo_session_HTML_1344x756/index.html)
+* Pictures of previous day in random order on 5/12: [Preview 1080x1920](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_02_antwerpen_v2_day_after_HTML_1080x1920/index.html) [Preview 1344x756](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_02_antwerpen_v2_day_after_HTML_1344x756/index.html)
 
 ### Belle Ile:
-* Live pictures on 10/12
-* Pictures of previous days in random order on 11/12
+* Live pictures on 10/12:
+* Pictures of previous days in random order on 11/12:
 
 ### For Waasland:
-* Live pictures on 17/12
-* Pictures of previous days in random order on 18/12
+* Live pictures on 17/12:
+* Pictures of previous days in random order on 18/12:
