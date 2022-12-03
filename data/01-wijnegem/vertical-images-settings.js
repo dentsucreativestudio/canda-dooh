@@ -1,5 +1,13 @@
 var settings = [
-   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_SkenderElisa13.jpg'},
+   
+   
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Rik23.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Rayan25.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_LenaWendy21.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Jolien20.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Geraldine24.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Birthe22.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_SkenderElisa13.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Nadiiadana10.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Maya12.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/01-wijnegem/Brand_Xmas_Shooting_1080x1920px_Lexi11.jpg'},
