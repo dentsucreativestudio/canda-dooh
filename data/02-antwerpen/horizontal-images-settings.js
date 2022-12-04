@@ -13,6 +13,12 @@ var settings = [
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Sofie7.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Valentina12.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Vaselina7.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_18.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_MarineCoura14.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_samara15.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Samiir16.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_GoedeleKaren13.jpg'},
+   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/02-antwerpen/Brand_Xmas_Shooting_1920x1080px_Ingrid17.jpg'},
 
 
 ];
