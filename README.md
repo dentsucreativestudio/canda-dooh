@@ -14,6 +14,7 @@ Keep the naming convention in such way images don't overide each other, so the t
 * Images [Wijnegem (03/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/01-wijnegem)
 * Images [Antwerpen (04/12) => 13:00 to 17:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/02-antwerpen)
 * Images [Belle Ile (10/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/03-belle-ile)
+* Images [Belle Etoile (11/12) => additional location](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/05-belle-etoile)
 * images [Waasland (17/12) => 11:00 to 20:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/04-waasland)
 
 # Data Entry
@@ -21,6 +22,7 @@ Keep the naming convention in such way images don't overide each other, so the t
 * Data [Wijnegem](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/01-wijnegem)
 * Data [Antwerpen](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/02-antwerpen)
 * Data [Belle Ile](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/03-belle-ile)
+* Data [Belle Etoile](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/05-belle-etoile) additional location
 * Data [Waasland](https://github.com/dentsucreativestudio/canda-dooh/tree/main/data/04-waasland)
 
 
@@ -63,6 +65,10 @@ For pre-visualisation of what will be displayed in the DOOH screens.
 ### Belle Ile:
 * Live pictures on 10/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_03_belle_ile_v1_photo_session_HTML_1080x1920/index.html)
 * Pictures of previous days in random order on 11/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_03_belle_ile_v2_day_after_HTML_1080x1920/index.html)
+
+### Belle Etoile: (additional location)
+* Live pictures on 11/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_05_belle_etoile_v1_photo_session_HTML_1080x1920/index.html)
+* Pictures of previous days in random order on 12/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_05_belle_etoile_v2_day_after_HTML_1080x1920/index.html)
 
 ### Waasland:
 * Live pictures on 17/12: [Preview](https://dentsucreativestudio.github.io/canda-dooh/HTML/canda_04_waasland_v1_photo_session_HTML_1080x1920/index.html)
