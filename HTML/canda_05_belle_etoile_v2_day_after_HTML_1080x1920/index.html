@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ad.size" content="width=1080,height=1920">
+      <style>
+      *,*:before,*:after {        box-sizing: inherit;        margin: 0;        padding: 0;     -webkit-font-smoothing: antialiased;        -moz-osx-font-smoothing: grayscale;   }      /*CSS RESET*/
+      html,body, div{
+        width:100%;
+        height:100%;
+      }
+      #banner { 
+        position: relative;
+        top:0;      
+        left:0;        
+        background-color: white;        
+        box-sizing: border-box;         
+        width:  1080px;        
+        height: 1920px;    
+        overflow: hidden;       
+        visibility: hidden;
+        transform: rotate(-90deg);
+        transform-origin: 540px 540px;
+       }
+      .blockElement{    position:absolute;    top:0;    left:0;    width:100%;    height:100%;  }
+      .abs{    position:absolute;    top:0;    left:0;  }
+      #visual{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        object-fit:cover;
+      }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; }}
+      .fade-in {
+          opacity:0;
+          animation:fadeIn;
+          animation-fill-mode:forwards;
+          animation-duration:0.7s;  
+          animation-timing-function:cubic-bezier(1,0,.18,.99);
+      }
+
+
+
+      </style>
+
+
+</head>
+<body>
+  
+<div id="banner" >
+  
+</div>
+
+<script src="https://dentsucreativestudio.github.io/canda-dooh/data/05-belle-etoile/vertical-images-settings.js"></script>
+
+
+  <script>
+
+     var banner = document.querySelector("#banner");
+     var infoPanel = document.querySelector("#infoPanel");
+
+     function onDocumentReadyHandler(){
+
+        var randomNumber = Math.floor(Math.random()*settings.length)
+        var randomItem = settings[randomNumber];
+        
+
+        let img = new Image();
+        img.id = "visual";
+        img.onload = function() {
+          banner.className = 'fade-in';
+          banner.appendChild(img);
+          console.log('Image loaded.')
+        };
+        img.onerror = function() {
+            // the image has failed, load a local default image
+            var defaults = ['Brand_Xmas_Shooting_1080x1920px_Anna.jpg','Brand_Xmas_Shooting_1080x1920px_Eveline.jpg','Brand_Xmas_Shooting_1080x1920px_Nancy.jpg']
+            var randomDefault = defaults[Math.floor(Math.random()*defaults.length)];
+            img.src = randomDefault;   
+            console.log('Image not loaded.')
+        };
+        img.src = randomItem.image;   
+        //end loading image
+
+
+        var bw = banner.offsetWidth; 
+        var bh = banner.offsetHeight; 
+
+        //set banner visibility
+        banner.style.visibility  = "visible";
+
+    }
+
+  document.addEventListener("DOMContentLoaded", onDocumentReadyHandler);
+
+
+</script>
+
+
+
+
+</body>
+</html>
