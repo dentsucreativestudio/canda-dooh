@@ -14,7 +14,7 @@ Keep the naming convention in such way images don't overide each other, so the t
 * Images [Wijnegem (03/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/01-wijnegem)
 * Images [Antwerpen (04/12) => 13:00 to 17:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/02-antwerpen)
 * Images [Belle Ile (10/12) => 11:00 to 18:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/03-belle-ile)
-* Images [Belle Etoile (11/12) => additional location](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/05-belle-etoile)
+* Images [Belle Etoile (11/12) => tba](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/05-belle-etoile) additional location
 * images [Waasland (17/12) => 11:00 to 20:00](https://github.com/dentsucreativestudio/canda-dooh/tree/main/images/04-waasland)
 
 # Data Entry
