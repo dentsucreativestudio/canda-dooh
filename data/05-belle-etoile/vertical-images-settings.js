@@ -1,4 +1,8 @@
 var settings = [
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Felipe24.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Ruby23.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Famfoto33.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Patrick31.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Catherine28.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Elisabeth26.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Joyce27.jpg'},
