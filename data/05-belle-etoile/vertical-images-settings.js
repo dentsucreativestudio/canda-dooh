@@ -1,4 +1,7 @@
 var settings = [
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Andre15.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Carolina13.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_ChloeOphelie14.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_famfoto12.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Bruno11.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Pascale6.jpg'},
@@ -7,7 +10,7 @@ var settings = [
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Pascale6.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Allessio4.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Hugo5.jpg'},
-    { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Duo7.jpg'},
+  { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Duo7.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Giana1.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_Melanie2.jpg'},
   { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/05-belle-etoile/Brand_Xmas_Shooting_1080x1920px_MariaHelena3.jpg'},
