@@ -1,4 +1,6 @@
 var settings = [
+      { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1920px1080px_Tia20.jpg'},
+      { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1920px1080px_Amela15.jpg'},
      { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1920px1080px_Lennert16.jpg'},
      { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1920px1080px_Amela15.jpg'},
     { image: 'https://dentsucreativestudio.github.io/canda-dooh/images/04-waasland/Brand_Xmas_Shooting_1920px1080px_Lina12.jpg'},
